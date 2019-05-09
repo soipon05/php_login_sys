@@ -34,6 +34,7 @@ $app->run();
 
             <div class="btn" onclick="document.getElementById('signup').submit();">Sign Up</div>
             <p><a class="fs12" href="/login.php">Log In</a></p>
+            <input type="hidden" name="token" value="<?= h($_SESSION['token']); ?>">
         </form>
     </div>
 </body>
