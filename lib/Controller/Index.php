@@ -2,7 +2,7 @@
 
 namespace Myapp\Controller;
 
-class Index extends \Myapp\Controller
+class Index extends \MyApp\Controller
 {
 
     public function run()
