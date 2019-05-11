@@ -14,5 +14,7 @@ class Index extends \MyApp\Controller
         }
 
         // get usres info
+        $userModel = new \MyApp\Model\User();
+        $this->setValues('users', $userModel->findAll());
     }
 }
